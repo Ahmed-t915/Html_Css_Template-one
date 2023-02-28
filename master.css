@@ -1,0 +1,299 @@
+
+    /* Assighment of css from 42 to 45 videos */
+/* ///////////////////////////////////////////////// */
+/* 
+.main {
+    background-color: #eee;
+    text-align: center;
+    padding: 25px;
+    width: 600px;
+    height: 300px;
+    margin: 50px auto;
+    font-size: 30px;
+    transition-duration: 0.5s;
+
+}
+
+.main:hover  {
+    margin: 20px auto; , 
+    
+
+}
+
+  .son {
+   
+    background-color: #cdcbcb;
+    text-align: center;
+    width: 600px;
+    height: 42px;
+    margin: 20px 0;
+    font-size: 30px;
+    transition-delay: 0.5s;
+    transition-duration: 0.5s;
+
+}
+ 
+.main:hover .son {
+    margin-top: 50px;
+} */
+
+/* 
+    div  {
+        background-color: #eee !important;
+        color: rgb(0, 0, 0) !important;
+        width: 400px !important;
+        font-size: 20px !important;
+        margin: 0px auto !important;
+        text-align: center;
+        padding: 20px !important;
+        border:0PX solid blue !important ;
+        position: relative;
+        text-indent: -9999px;
+    }
+
+    div::before {
+        content: "Elzero";
+        font-weight: bold;
+        text-indent: 0px;
+        width: 400px;
+        position: absolute;
+        left: 20px;
+        font-family: sans-serif;
+
+    } */
+/* 
+
+    :root {
+        --mainColor: #096e64;
+        --mainPadding: 10px;
+      }
+      
+      div {
+        border-width: 4px;
+        border-color: var(--mainColor , black);
+        border-style:solid;
+        padding: var(--mainPadding , 10px);
+        color :  var(--mainColor,red);
+        margin : 10px;
+
+      } */
+
+
+
+
+
+/*  from 46 to 53 */
+
+/* 
+.parent {
+
+    background-color: #eee;
+    width: 600px;
+    height: 300px;
+    margin: 20px auto;
+    padding: 15px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;  */
+/*     
+    :root { 
+        --maincolor:  #eee;
+        --margin : 10px;
+        --padding : 10px        
+    }
+    .page {    
+        background-color: #ccc;
+        overflow: hidden;
+        }
+
+
+
+    .header { 
+      
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    } 
+    
+    .logo,
+    .links
+     { 
+        background-color: var(--maincolor);
+        width: calc(100% / 12);
+        margin: var(--margin);
+        padding: var(--padding);
+        display: flex;
+        justify-content: center;
+    }
+
+     .links { 
+        justify-content: flex-end;
+        flex-grow: 1; 
+        list-style-type: none;
+     }
+     .links li { 
+        padding-left: 20px;
+     }
+
+     .main-area { 
+        overflow: hidden;
+        display: flex;
+        justify-content:space-between;
+     }
+
+    .content,
+    .sidebar 
+    { 
+        background-color: var(--maincolor);
+        width: calc(100% / 4);
+        padding: var(--padding);
+        margin: var(--margin);
+
+     }
+     
+     .content { 
+        flex-grow: 2;
+        height: 300px;
+    }
+    .footer {
+        background-color: var(--maincolor);
+        padding: var(--padding);
+        margin: var(--margin);
+        display: flex;
+        justify-content: center;
+
+    } */
+
+
+
+    /* simple layout
+
+
+    *{ 
+      
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+    }
+    .layout {
+        height: 100%;
+        width: 100%;
+        background-color: #ddd;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows:repeat(12,1fr) ;
+        gap: 20px 20px;
+        
+    }
+    .layout div { 
+        background-color:white;
+        padding: 15px;
+        display: grid;
+        position: relative;
+    }
+    .layout .mohamed2,
+    .layout .shady
+     { 
+        background-color: black;
+        color: white;
+    }
+
+    .osama{
+grid-column: 1/3;
+grid-row: 1/4;
+}        
+
+     .ahmed { 
+            grid-column: 3/4;
+            grid-row:  1/4;
+    }
+
+    .shady{
+grid-column: 4/5;
+grid-row: 1/9;
+
+    }
+    .mohamed{ 
+        grid-column:1/2 ;
+        grid-row: 4/9;
+    }
+    .mohamed2{ 
+        grid-column:2/4 ;
+        grid-row: 4/6;
+    }
+    .ezz{ 
+        grid-column:2/4 ;
+        grid-row: 6/9;
+    } 
+
+
+       /* =======================Assignmets of media Queries ============================== */
+     /* *{
+        box-sizing: border-box;
+        margin: 0;
+    }
+
+    .parent {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin: 20px auto;
+    }
+    .parent > div {
+        background-color: #eee;
+        color: black;
+        text-align: center;
+        padding: 20px;
+        width: 600px;
+        font-size: 20px;
+        margin-bottom: 30px;
+        font-family: sans-serif;
+
+    }
+    h4 { 
+        color: green;
+        margin-bottom: 10px;
+    }
+    .parent div:first-child { 
+        width: 100%;
+    }
+     .parent div:last-child { 
+        width: 100%;
+    }
+     
+/* medium screen */
+    /* @media (min-width:600px) and (max-width : 1199px) {
+        .parent>div { 
+            width: calc(50% - 10px);
+        }
+        .parent>div h4 { 
+            color: red;
+        }
+        .parent:first-child { 
+            width: 100%;
+        }
+        .parent div:last-child{ 
+            width:290px ;
+        }
+        .parent>div { 
+            width: 290px;
+        }
+        }
+        
+
+        /* mobile screen */
+        /* @media (max-width:599px) {
+            .parent>div { 
+                width: calc(100% - 10px);
+            }
+            .parent>div h4 { 
+                color: black;
+            }
+             */
+         /* =======================End of Assignmets of media Queries ============================== */
+     
+
+ 
